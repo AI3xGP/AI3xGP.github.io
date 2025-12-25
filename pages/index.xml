@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Awesome Hugo blog</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Awesome Hugo blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>&lt;p&gt;Soy Diego Alejandro Gamboa, de preferencia Alejandro, entusiasta del hardware y el software, especialmente apasionado por desarmar y reconstruir cosas, totalmente convencido del metodo cientifico.&lt;/p&gt;
+&lt;p&gt;Mis principales campos de interes son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Informatica forense&lt;/li&gt;
+&lt;li&gt;Redes&lt;/li&gt;
+&lt;li&gt;Programacion (C++, Python, C#, Rust)&lt;/li&gt;
+&lt;li&gt;Bases de datos (Este tema ya no tanto, es aburrido)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Quisiera compartir por este medio algunas de mis investigaciones o proyectos personales, que en ciertos momentos de trabajo me han facilitado la vida.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
