@@ -5,6 +5,16 @@
     <loc>https://AiexGP.github.io/zh-cn/</loc>
     <xhtml:link
                 rel="alternate"
+                hreflang="en-gb"
+                href="https://AiexGP.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://AiexGP.github.io/pt-br/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru-ru"
                 href="https://AiexGP.github.io/ru-ru/"
                 />
@@ -22,16 +32,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://AiexGP.github.io/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://AiexGP.github.io/pt-br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
-                href="https://AiexGP.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -89,16 +89,6 @@
     <loc>https://AiexGP.github.io/zh-cn/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="https://AiexGP.github.io/de-de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
-                href="https://AiexGP.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr-fr"
                 href="https://AiexGP.github.io/fr-fr/tags/"
                 />
@@ -116,6 +106,16 @@
                 rel="alternate"
                 hreflang="ru-ru"
                 href="https://AiexGP.github.io/ru-ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="https://AiexGP.github.io/de-de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-gb"
+                href="https://AiexGP.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"

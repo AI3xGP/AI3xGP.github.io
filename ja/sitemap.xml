@@ -5,18 +5,8 @@
     <loc>https://AiexGP.github.io/ja/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="pt-br"
-                href="https://AiexGP.github.io/pt-br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://AiexGP.github.io/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://AiexGP.github.io/ru-ru/"
+                hreflang="en-gb"
+                href="https://AiexGP.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -30,8 +20,18 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-gb"
-                href="https://AiexGP.github.io/"
+                hreflang="zh-cn"
+                href="https://AiexGP.github.io/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://AiexGP.github.io/pt-br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="https://AiexGP.github.io/ru-ru/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -45,16 +45,6 @@
                 />
   </url><url>
     <loc>https://AiexGP.github.io/ja/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="https://AiexGP.github.io/de-de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
-                href="https://AiexGP.github.io/categories/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
@@ -74,6 +64,16 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://AiexGP.github.io/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="https://AiexGP.github.io/de-de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-gb"
+                href="https://AiexGP.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
