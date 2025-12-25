@@ -2,27 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Awesome Hugo blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://AiexGP.github.io/</link>
     <description>Recent content in Home on Awesome Hugo blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Welcome</title>
-      <link>http://localhost:1313/posts/welcome/</link>
-      <pubDate>Thu, 25 Dec 2025 07:36:20 -0500</pubDate>
-      
-      <guid>http://localhost:1313/posts/welcome/</guid>
-      
-      <description></description>
-      
-    </item>
-    
+    <language>en-gb</language><atom:link href="https://AiexGP.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/pages/about/</link>
+      <link>https://AiexGP.github.io/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/about/</guid>
+      <guid>https://AiexGP.github.io/pages/about/</guid>
       
       <description>&lt;p&gt;Soy Diego Alejandro Gamboa, de preferencia Alejandro, entusiasta del hardware y el software, especialmente apasionado por desarmar y reconstruir cosas, totalmente convencido del metodo cientifico.&lt;/p&gt;
 &lt;p&gt;Mis principales campos de interes son:&lt;/p&gt;
