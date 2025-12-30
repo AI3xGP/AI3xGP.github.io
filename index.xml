@@ -6,7 +6,19 @@
     <description>Recent content in Home on Alejandro Gamboa blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 25 Dec 2025 07:36:20 -0500</lastBuildDate><atom:link href="https://AiexGP.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Dec 2025 08:29:59 -0500</lastBuildDate><atom:link href="https://AiexGP.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powerstatus</title>
+      <link>https://AiexGP.github.io/posts/powerstatus/powerstatus/</link>
+      <pubDate>Tue, 30 Dec 2025 08:29:59 -0500</pubDate>
+      
+      <guid>https://AiexGP.github.io/posts/powerstatus/powerstatus/</guid>
+      
+      <description>&lt;p&gt;Today, in Scripts to Work Less, I wanted to explore the idea of creating a small script to determine a machine’s startup, shutdown, and wake-up times.&lt;/p&gt;
+&lt;p&gt;In the case of Windows, I know this information can already be obtained using tools like Plaso and others. However, I don’t want to spend 30 minutes just to answer a very specific question. So, let’s get our hands dirty. The first step is to identify which system events are related to these activities.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Welcome</title>
       <link>https://AiexGP.github.io/posts/welcome/</link>
