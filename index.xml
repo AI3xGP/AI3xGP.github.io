@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Alejandro Gamboa blog</title>
-    <link>https://AiexGP.github.io/</link>
+    <link>https://Ai3xGP.github.io/</link>
     <description>Recent content in Home on Alejandro Gamboa blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 30 Dec 2025 08:29:59 -0500</lastBuildDate><atom:link href="https://AiexGP.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Dec 2025 08:29:59 -0500</lastBuildDate><atom:link href="https://Ai3xGP.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powerstatus</title>
-      <link>https://AiexGP.github.io/posts/powerstatus/powerstatus/</link>
+      <link>https://Ai3xGP.github.io/posts/powerstatus/powerstatus/</link>
       <pubDate>Tue, 30 Dec 2025 08:29:59 -0500</pubDate>
       
-      <guid>https://AiexGP.github.io/posts/powerstatus/powerstatus/</guid>
+      <guid>https://Ai3xGP.github.io/posts/powerstatus/powerstatus/</guid>
       
       <description>&lt;p&gt;Today, in Scripts to Work Less, I wanted to explore the idea of creating a small script to determine a machine’s startup, shutdown, and wake-up times.&lt;/p&gt;
 &lt;p&gt;In the case of Windows, I know this information can already be obtained using tools like Plaso and others. However, I don’t want to spend 30 minutes just to answer a very specific question. So, let’s get our hands dirty. The first step is to identify which system events are related to these activities.&lt;/p&gt;</description>
@@ -21,10 +21,10 @@
     
     <item>
       <title>Welcome</title>
-      <link>https://AiexGP.github.io/posts/welcome/</link>
+      <link>https://Ai3xGP.github.io/posts/welcome/</link>
       <pubDate>Thu, 25 Dec 2025 07:36:20 -0500</pubDate>
       
-      <guid>https://AiexGP.github.io/posts/welcome/</guid>
+      <guid>https://Ai3xGP.github.io/posts/welcome/</guid>
       
       <description>&lt;p&gt;Thank&amp;rsquo;s for visit me.&lt;/p&gt;</description>
       
@@ -32,10 +32,10 @@
     
     <item>
       <title>About</title>
-      <link>https://AiexGP.github.io/pages/about/</link>
+      <link>https://Ai3xGP.github.io/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://AiexGP.github.io/pages/about/</guid>
+      <guid>https://Ai3xGP.github.io/pages/about/</guid>
       
       <description>&lt;p&gt;Soy Diego Alejandro Gamboa, de preferencia Alejandro, entusiasta del hardware y el software, especialmente apasionado por desarmar y reconstruir cosas, totalmente convencido del metodo cientifico.&lt;/p&gt;
 &lt;p&gt;Mis principales campos de interes son:&lt;/p&gt;
