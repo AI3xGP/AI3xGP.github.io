@@ -2,30 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/browsertimeline/</loc>
+    <loc>https://Ai3xGP.github.io/posts/cascade/</loc>
+    <lastmod>2026-02-09T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://Ai3xGP.github.io/</loc>
+    <lastmod>2026-02-09T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://Ai3xGP.github.io/posts/</loc>
+    <lastmod>2026-02-09T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://Ai3xGP.github.io/posts/browsertimeline/</loc>
     <lastmod>2026-01-20T07:49:58-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-20T07:49:58-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-01-20T07:49:58-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/jira/</loc>
+    <loc>https://Ai3xGP.github.io/posts/jira/</loc>
     <lastmod>2026-01-08T07:51:46-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/powerstatus/</loc>
+    <loc>https://Ai3xGP.github.io/posts/powerstatus/</loc>
     <lastmod>2025-12-30T08:29:59-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/welcome/</loc>
+    <loc>https://Ai3xGP.github.io/posts/welcome/</loc>
     <lastmod>2025-12-25T07:36:20-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pages/about/</loc>
+    <loc>https://Ai3xGP.github.io/pages/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://Ai3xGP.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>https://Ai3xGP.github.io/pages/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://Ai3xGP.github.io/tags/</loc>
   </url>
 </urlset>
