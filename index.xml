@@ -6,19 +6,17 @@
     <description>Recent content in Home on Alejandro Gamboa blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 09 Feb 2026 10:00:00 -0500</lastBuildDate><atom:link href="https://Ai3xGP.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Apr 2026 23:47:23 -0500</lastBuildDate><atom:link href="https://Ai3xGP.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cascade</title>
-      <link>https://Ai3xGP.github.io/posts/cascade/</link>
-      <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
+      <title>Faramir</title>
+      <link>https://Ai3xGP.github.io/posts/faramir/faramir/</link>
+      <pubDate>Sun, 05 Apr 2026 23:47:23 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/cascade/</guid>
+      <guid>https://Ai3xGP.github.io/posts/faramir/faramir/</guid>
       
-      <description>&lt;h1 id=&#34;understanding-network-traffic-storms-physical-interfaces-logical-vlans-and-policy-configuration-in-palo-alto-networks&#34;&gt;Understanding Network Traffic Storms: Physical Interfaces, Logical VLANs, and Policy Configuration in Palo Alto Networks&lt;/h1&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Network administrators often work with concepts like physical interfaces, logical VLANs, policies, and DHCPv6 relay configurations as separate, isolated topics. But when these components interact incorrectly, they can create cascading failures that are difficult to diagnose and troubleshoot.&lt;/p&gt;
-&lt;p&gt;This post explores how these core networking concepts work in Palo Alto Networks firewalls, how they interact with each other, and critically—what happens when their configurations create ambiguous or conflicting paths for network traffic.&lt;/p&gt;</description>
+      <description>&lt;p&gt;After building &lt;a href=&#34;https://github.com/AI3xGP&#34;&gt;Boromir&lt;/a&gt; in Python, it was time to let the younger brother take over.&lt;/p&gt;
+&lt;p&gt;Faramir is a Rust-based forensic utility designed to extract and timeline Windows persistence artifacts from offline registry hives. It targets mounted disk images and parses the SYSTEM, SOFTWARE, and NTUSER.DAT registry files to surface known persistence techniques, outputting everything to CSV for easy ingestion into a timeline or SIEM.&lt;/p&gt;
+&lt;p&gt;The move to Rust was intentional — single self-contained binary, no Python environment to set up, and better performance when parsing large hives.&lt;/p&gt;</description>
       
     </item>
     
