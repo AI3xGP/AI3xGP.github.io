@@ -1,0 +1,433 @@
+// ============================================================
+// Cyberpunk / hacker-terminal theme override
+// This file is loaded last by the theme's main.scss, so plain
+// CSS rules here win the cascade over the theme's own styles.
+// ============================================================
+
+// ---- Palette --------------------------------------------------
+// Dark mode  = "matrix" terminal (green / cyan on black)
+// Light mode = amber CRT terminal (kept dark-bg on purpose —
+// a true white background breaks the terminal illusion)
+
+:root {
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, 'Cascadia Code',
+    'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+
+  --bg: #050806;
+  --bg-panel: #0b120d;
+  --fg: #8fffa0;
+  --fg-bright: #39ff14;
+  --accent: #00e5ff;
+  --accent-hover: #7dffef;
+  --accent-2: #ff2fa3;
+  --border: #123016;
+  --border-bright: #1f5c26;
+  --muted: #5f8f68;
+  --selection-bg: #114d22;
+  --glow-rgb: 57, 255, 20;
+}
+
+html.light {
+  --bg: #0d0800;
+  --bg-panel: #171200;
+  --fg: #e0a95c;
+  --fg-bright: #ffb000;
+  --accent: #ff9a00;
+  --accent-hover: #ffc266;
+  --accent-2: #ff5252;
+  --border: #3a2400;
+  --border-bright: #5c3a00;
+  --muted: #8a6a35;
+  --selection-bg: #4d2f00;
+  --glow-rgb: 255, 176, 0;
+}
+
+// ---- Base ------------------------------------------------------
+
+html.dark body,
+html.light body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) body {
+    background-color: var(--bg);
+    color: var(--fg);
+  }
+}
+
+body,
+input,
+button,
+select,
+textarea,
+.menu-link,
+.lang-list {
+  font-family: var(--font-mono) !important;
+}
+
+body {
+  letter-spacing: 0.01em;
+}
+
+// Faint CRT scanlines + vignette, decorative only
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0) 1px,
+      rgba(0, 0, 0, 0.35) 2px,
+      rgba(0, 0, 0, 0.35) 3px
+    ),
+    radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0) 55%,
+      rgba(0, 0, 0, 0.45) 100%
+    );
+  mix-blend-mode: multiply;
+  opacity: 0.35;
+  animation: crt-flicker 6s infinite steps(60);
+}
+
+@keyframes crt-flicker {
+  0%, 96%, 100% { opacity: 0.32; }
+  97% { opacity: 0.22; }
+  98% { opacity: 0.4; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before { animation: none; }
+}
+
+// Headings
+html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6,
+html.light h1, html.light h2, html.light h3, html.light h4, html.light h5, html.light h6 {
+  color: var(--fg-bright);
+  text-shadow: 0 0 6px rgba(var(--glow-rgb), 0.55);
+  font-weight: 700;
+}
+
+html.dark strong, html.dark b,
+html.light strong, html.light b {
+  color: var(--fg-bright);
+}
+
+html.dark hr, html.light hr {
+  border-color: var(--border);
+}
+
+// Links
+html.dark a, html.light a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--border-bright);
+
+  &:hover {
+    color: var(--accent-2);
+    text-shadow: 0 0 8px rgba(var(--glow-rgb), 0.6);
+  }
+
+  &:focus {
+    outline: 1px dashed var(--accent);
+    outline-offset: 3px;
+  }
+}
+
+html.dark .page-content a, html.light .page-content a {
+  color: var(--accent);
+
+  &:hover { color: var(--accent-2); }
+  &:focus { color: var(--accent); }
+}
+
+// Selection + scrollbar
+::selection {
+  background: var(--selection-bg);
+  color: var(--fg-bright);
+}
+
+html.dark, html.light {
+  scrollbar-color: var(--border-bright) var(--bg);
+}
+
+html.dark ::-webkit-scrollbar, html.light ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+html.dark ::-webkit-scrollbar-track, html.light ::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+html.dark ::-webkit-scrollbar-thumb, html.light ::-webkit-scrollbar-thumb {
+  background: var(--border-bright);
+  border-radius: 0;
+}
+
+// Blockquote — styled like a code comment
+html.dark blockquote, html.light blockquote {
+  border-left: 3px solid var(--border-bright);
+  color: var(--muted);
+  font-style: normal;
+
+  &::before {
+    content: "// ";
+    color: var(--border-bright);
+  }
+}
+
+// Tables
+html.dark table, html.light table {
+  border-color: var(--border);
+
+  thead {
+    color: var(--fg-bright);
+    border-bottom-color: var(--border-bright);
+  }
+
+  th, td, tr {
+    border-color: var(--border);
+  }
+}
+
+// Inline code
+html.dark li > code, html.dark p > code,
+html.light li > code, html.light p > code {
+  color: var(--fg-bright);
+  background-color: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+
+// Code blocks — terminal window chrome
+html.dark pre, html.light pre {
+  border: 1px solid var(--border-bright);
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(var(--glow-rgb), 0.12);
+  padding-top: 1.75rem;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.65rem;
+    left: 1rem;
+    width: 34px;
+    height: 10px;
+    background-image:
+      radial-gradient(circle 4px at 4px 5px, #ff5f56 4px, transparent 4px),
+      radial-gradient(circle 4px at 18px 5px, #ffbd2e 4px, transparent 4px),
+      radial-gradient(circle 4px at 32px 5px, #27c93f 4px, transparent 4px);
+  }
+}
+
+// ---- Navbar ------------------------------------------------------
+
+html.dark .navbar, html.light .navbar {
+  border-bottom-color: var(--border-bright);
+}
+
+html.dark .logo, html.light .logo {
+  color: var(--fg-bright);
+
+  svg {
+    filter: drop-shadow(0 0 4px rgba(var(--glow-rgb), 0.7));
+  }
+}
+
+html.dark .menu-link, html.light .menu-link {
+  color: var(--fg);
+
+  &::before {
+    content: "> ";
+    color: var(--border-bright);
+  }
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+html.dark .menu-link.active, html.light .menu-link.active {
+  color: var(--fg-bright);
+  text-shadow: 0 0 6px rgba(var(--glow-rgb), 0.6);
+}
+
+html.dark .menu-separator, html.light .menu-separator {
+  color: var(--border-bright);
+}
+
+#mode {
+  .mode-moon line, .mode-sunny line { stroke: var(--accent) !important; }
+  .mode-moon circle, .mode-sunny circle { stroke: var(--accent) !important; }
+  .mode-moon circle { fill: var(--accent) !important; }
+}
+
+@media screen and (max-width: 768px) {
+  html.dark .menu, html.light .menu {
+    background-color: var(--bg) !important;
+    border-bottom-color: var(--border-bright);
+  }
+}
+
+// ---- Author bio / home -----------------------------------------
+
+html.dark .author-name, html.light .author-name {
+  color: var(--fg-bright);
+  text-shadow: 0 0 6px rgba(var(--glow-rgb), 0.55);
+}
+
+html.dark .author-bio, html.light .author-bio {
+  color: var(--muted);
+}
+
+.term-prompt {
+  color: var(--border-bright);
+  font-size: 0.85em;
+  margin-bottom: 0.4em !important;
+  min-height: 1.2em;
+}
+
+.term-cursor {
+  display: inline-block;
+  width: 0.55em;
+  height: 1em;
+  background: var(--fg-bright);
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  animation: term-blink 1s steps(1) infinite;
+  box-shadow: 0 0 6px rgba(var(--glow-rgb), 0.7);
+}
+
+@keyframes term-blink {
+  50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .term-cursor { animation: none; }
+}
+
+html.dark .posts-item-note, html.light .posts-item-note {
+  color: var(--muted);
+  text-transform: none;
+
+  &::before {
+    content: "$ ";
+    color: var(--border-bright);
+  }
+}
+
+// ---- Post list ---------------------------------------------------
+
+html.dark .post-item, html.light .post-item {
+  border-bottom: 1px solid var(--border);
+  padding: 0.6rem 0;
+  transition: background-color 120ms ease, border-color 120ms ease;
+
+  &:hover {
+    background-color: var(--bg-panel);
+  }
+}
+
+html.dark .post-item-title a, html.light .post-item-title a {
+  color: var(--fg);
+  border-bottom: none;
+
+  &::before {
+    content: "$ ";
+    color: var(--border-bright);
+  }
+
+  &:hover {
+    color: var(--accent);
+    text-shadow: 0 0 6px rgba(var(--glow-rgb), 0.5);
+  }
+}
+
+html.dark .post-item-meta, html.light .post-item-meta {
+  color: var(--muted);
+
+  &::before { content: "["; }
+  &::after { content: "]"; }
+}
+
+// ---- Single post ---------------------------------------------------
+
+html.dark .header-title, html.light .header-title {
+  position: relative;
+
+  &:hover {
+    animation: glitch 380ms steps(2, jump-none);
+  }
+}
+
+@keyframes glitch {
+  0% { text-shadow: 0 0 6px rgba(var(--glow-rgb), 0.55); }
+  20% { text-shadow: -2px 0 var(--accent-2), 2px 0 var(--accent); }
+  40% { text-shadow: 2px 0 var(--accent-2), -2px 0 var(--accent); }
+  60% { text-shadow: -1px 0 var(--accent-2), 1px 0 var(--accent); }
+  100% { text-shadow: 0 0 6px rgba(var(--glow-rgb), 0.55); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.dark .header-title:hover, html.light .header-title:hover {
+    animation: none;
+  }
+}
+
+html.dark .post-meta, html.light .post-meta {
+  color: var(--muted);
+
+  &::before {
+    content: "// ";
+    color: var(--border-bright);
+  }
+}
+
+html.dark .post-nav, html.light .post-nav {
+  border-top-color: var(--border);
+
+  .post-title { color: var(--fg); }
+  .nav-arrow { color: var(--muted); }
+
+  .post-nav-item:hover .post-title {
+    color: var(--accent);
+  }
+}
+
+// ---- Table of contents ---------------------------------------------
+
+html.dark .toc, html.light .toc {
+  background-color: var(--bg-panel);
+  border-left: 2px solid var(--border-bright);
+  color: var(--fg);
+
+  a { color: var(--fg); }
+  a:hover { color: var(--accent); }
+}
+
+// ---- Footer / go-to-top ---------------------------------------------
+
+html.dark .footer, html.light .footer {
+  color: var(--muted);
+}
+
+html.dark .footer_social-icons, html.light .footer_social-icons {
+  color: var(--fg);
+
+  a:hover { color: var(--accent); }
+}
+
+html.dark #totop, html.light #totop {
+  color: var(--fg-bright);
+  border: 1px solid var(--border-bright);
+  border-radius: 4px;
+  background-color: var(--bg-panel);
+  box-shadow: 0 0 10px rgba(var(--glow-rgb), 0.25);
+}
