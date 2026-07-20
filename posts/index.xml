@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Alejandro Gamboa blog</title>
-    <link>https://Ai3xGP.github.io/posts/</link>
+    <link>https://Alexgpsec.github.io/posts/</link>
     <description>Recent content in Posts on Alejandro Gamboa blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 05 Apr 2026 23:47:23 -0500</lastBuildDate><atom:link href="https://Ai3xGP.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Apr 2026 23:47:23 -0500</lastBuildDate><atom:link href="https://Alexgpsec.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Faramir</title>
-      <link>https://Ai3xGP.github.io/posts/faramir/faramir/</link>
+      <link>https://Alexgpsec.github.io/posts/faramir/faramir/</link>
       <pubDate>Sun, 05 Apr 2026 23:47:23 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/faramir/faramir/</guid>
+      <guid>https://Alexgpsec.github.io/posts/faramir/faramir/</guid>
       
       <description>&lt;p&gt;After building &lt;a href=&#34;https://github.com/AI3xGP&#34;&gt;Boromir&lt;/a&gt; in Python, it was time to let the younger brother take over.&lt;/p&gt;
 &lt;p&gt;Faramir is a Rust-based forensic utility designed to extract and timeline Windows persistence artifacts from offline registry hives. It targets mounted disk images and parses the SYSTEM, SOFTWARE, and NTUSER.DAT registry files to surface known persistence techniques, outputting everything to CSV for easy ingestion into a timeline or SIEM.&lt;/p&gt;
@@ -22,10 +22,10 @@
     
     <item>
       <title>Cascade</title>
-      <link>https://Ai3xGP.github.io/posts/cascade/</link>
+      <link>https://Alexgpsec.github.io/posts/cascade/</link>
       <pubDate>Mon, 09 Feb 2026 10:00:00 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/cascade/</guid>
+      <guid>https://Alexgpsec.github.io/posts/cascade/</guid>
       
       <description>&lt;h1 id=&#34;understanding-network-traffic-storms-physical-interfaces-logical-vlans-and-policy-configuration-in-palo-alto-networks&#34;&gt;Understanding Network Traffic Storms: Physical Interfaces, Logical VLANs, and Policy Configuration in Palo Alto Networks&lt;/h1&gt;
 &lt;hr&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Chatgpt</title>
-      <link>https://Ai3xGP.github.io/posts/chatgpt/</link>
+      <link>https://Alexgpsec.github.io/posts/chatgpt/</link>
       <pubDate>Tue, 27 Jan 2026 10:33:41 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/chatgpt/</guid>
+      <guid>https://Alexgpsec.github.io/posts/chatgpt/</guid>
       
       <description>&lt;p&gt;Como analizar extensiones o posibles exfiltraciones a traves de chatgpt, dependiendo de la aplicacion utilizada para conectar, tendremos los datos en uno u otro directorio, para esta publicacion utilizaremos, acceso web a traves de chrome (no varia mucho con firefox o edge)&lt;/p&gt;
 &lt;p&gt;Lo mas importante es donde encontraremos los artefactos y principalmente estan en tres directorios:&lt;/p&gt;
@@ -54,10 +54,10 @@ SessionsDB&lt;/p&gt;</description>
     
     <item>
       <title>Browsertimeline</title>
-      <link>https://Ai3xGP.github.io/posts/browsertimeline/</link>
+      <link>https://Alexgpsec.github.io/posts/browsertimeline/</link>
       <pubDate>Tue, 20 Jan 2026 07:49:58 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/browsertimeline/</guid>
+      <guid>https://Alexgpsec.github.io/posts/browsertimeline/</guid>
       
       <description>&lt;p&gt;For a long time, I was querying the Chrome History file directly or creating a browser-only timeline with Plaso. This approach was time-consuming and inefficient.&lt;/p&gt;
 &lt;p&gt;Today, I decided to build a script—with the help of vibe coding—to automate the creation of this timeline.&lt;/p&gt;
@@ -68,10 +68,10 @@ SessionsDB&lt;/p&gt;</description>
     
     <item>
       <title>Jira</title>
-      <link>https://Ai3xGP.github.io/posts/jira/</link>
+      <link>https://Alexgpsec.github.io/posts/jira/</link>
       <pubDate>Thu, 08 Jan 2026 07:51:46 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/jira/</guid>
+      <guid>https://Alexgpsec.github.io/posts/jira/</guid>
       
       <description>&lt;p&gt;During the handling of an incident, it became necessary to conduct an audit in Jira to verify whether any private key or digital certificate had been shared through a ticket.&lt;/p&gt;
 &lt;p&gt;To accomplish this, a comprehensive system-wide search was performed. Using a user account with sufficient privileges to execute global searches, the following script was developed:&lt;/p&gt;
@@ -137,10 +137,10 @@ SessionsDB&lt;/p&gt;</description>
     
     <item>
       <title>Shellcode</title>
-      <link>https://Ai3xGP.github.io/posts/shellcode/</link>
+      <link>https://Alexgpsec.github.io/posts/shellcode/</link>
       <pubDate>Fri, 02 Jan 2026 10:03:03 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/shellcode/</guid>
+      <guid>https://Alexgpsec.github.io/posts/shellcode/</guid>
       
       <description></description>
       
@@ -148,10 +148,10 @@ SessionsDB&lt;/p&gt;</description>
     
     <item>
       <title>Powerstatus</title>
-      <link>https://Ai3xGP.github.io/posts/powerstatus/</link>
+      <link>https://Alexgpsec.github.io/posts/powerstatus/</link>
       <pubDate>Tue, 30 Dec 2025 08:29:59 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/powerstatus/</guid>
+      <guid>https://Alexgpsec.github.io/posts/powerstatus/</guid>
       
       <description>&lt;p&gt;Today, in Scripts to Work Less, I wanted to explore the idea of creating a small script to determine a machine’s startup, shutdown, and wake-up times.&lt;/p&gt;
 &lt;p&gt;In the case of Windows, I know this information can already be obtained using tools like Plaso and others. However, I don’t want to spend 30 minutes just to answer a very specific question. So, let’s get our hands dirty. The first step is to identify which system events are related to these activities.&lt;/p&gt;</description>
@@ -160,10 +160,10 @@ SessionsDB&lt;/p&gt;</description>
     
     <item>
       <title>Notepad Plus Plus</title>
-      <link>https://Ai3xGP.github.io/posts/notepad-plus-plus/</link>
+      <link>https://Alexgpsec.github.io/posts/notepad-plus-plus/</link>
       <pubDate>Fri, 26 Dec 2025 08:07:43 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/notepad-plus-plus/</guid>
+      <guid>https://Alexgpsec.github.io/posts/notepad-plus-plus/</guid>
       
       <description>&lt;p&gt;This investigation started after an alert generated by an EDR: &lt;strong&gt;&amp;ldquo;Possible Masquerading Behavior&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Possible Masquerading Behavior indicates that a process, file, or connection is impersonating another entity:&lt;/p&gt;
@@ -184,10 +184,10 @@ SessionsDB&lt;/p&gt;</description>
     
     <item>
       <title>Welcome</title>
-      <link>https://Ai3xGP.github.io/posts/welcome/</link>
+      <link>https://Alexgpsec.github.io/posts/welcome/</link>
       <pubDate>Thu, 25 Dec 2025 07:36:20 -0500</pubDate>
       
-      <guid>https://Ai3xGP.github.io/posts/welcome/</guid>
+      <guid>https://Alexgpsec.github.io/posts/welcome/</guid>
       
       <description>&lt;p&gt;Thank&amp;rsquo;s for visit me.&lt;/p&gt;</description>
       
