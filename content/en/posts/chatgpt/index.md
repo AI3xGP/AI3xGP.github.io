@@ -1,6 +1,6 @@
 +++
 date = '2026-01-27T10:33:41-05:00'
-draft = true
+draft = false
 title = 'Chatgpt'
 +++
 
